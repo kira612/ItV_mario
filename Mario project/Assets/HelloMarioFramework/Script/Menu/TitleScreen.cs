@@ -117,8 +117,21 @@ namespace HelloMarioFramework
 
                         //Create new game if needed
                         if (newGame) SaveData.NewGame();
+                        // {
+                        //      StartCoroutine(ChangeScene());
+                        // }
+                        StartCoroutine(ChangeScene());  
 
-                        StartCoroutine(ChangeScene());
+                        //セーブデータがあったらｑを押したらセーブデータを初期化する
+                        // if (!newGame)
+                        // {
+                        //     if (Input.GetKeyDown(KeyCode.Q))
+                        //     {
+                        //         SaveData.NewGame();
+                        //         StartCoroutine(ChangeScene());
+                        //     }
+                        // }
+                            
                     }
                     //Movement keys
                     else
