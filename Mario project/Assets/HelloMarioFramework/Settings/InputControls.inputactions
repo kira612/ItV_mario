@@ -11,7 +11,8 @@
                     "id": "56ceca1b-4c48-4f41-9327-b427c1d74fde",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Crouch",
@@ -19,7 +20,8 @@
                     "id": "2bfd1bd3-22e6-4c09-98fe-fba162d3f36b",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Center",
@@ -27,7 +29,8 @@
                     "id": "e408d7a0-5b80-478e-8436-58a5907113ca",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Pause",
@@ -35,7 +38,8 @@
                     "id": "f5060ccf-9c3c-4316-8d6e-8c272a3c38db",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Movement",
@@ -43,7 +47,8 @@
                     "id": "b7383a4b-5c0b-4238-b8bc-999ca4b9672c",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Camera",
@@ -51,7 +56,8 @@
                     "id": "0d6812c7-d412-492c-98e8-2f93c3966d82",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Zoom",
@@ -59,7 +65,8 @@
                     "id": "e7bdeeb0-3284-4bc9-bb10-46142a51f347",
                     "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -67,17 +74,6 @@
                     "name": "",
                     "id": "b5c8b3c2-a78e-46e0-ae1b-6c2d8bc5a94d",
                     "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "cab27c33-bb22-446e-9c1c-c05144260c49",
-                    "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

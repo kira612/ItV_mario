@@ -61,7 +61,7 @@ namespace HelloMarioFramework
 
         //Hub world scene
         [SerializeField]
-        private SceneReference hubScene;
+        private SceneReference Scene;
         
         void Start()
         {
@@ -74,7 +74,7 @@ namespace HelloMarioFramework
 
             //Remember scene information
             LoadingScreen.titleScene = SceneManager.GetActiveScene().path;
-            LoadingScreen.hubScene = hubScene.ScenePath;
+            LoadingScreen.hubScene = Scene.ScenePath;
 
 #if (UNITY_STANDALONE && !UNITY_EDITOR)
             //Disable mouse cursor on windows standalone
@@ -215,7 +215,7 @@ namespace HelloMarioFramework
         {
             selected = true;
             yield return new WaitForSeconds(1.5f);
-            LoadingScreen.scene = hubScene.ScenePath;
+            LoadingScreen.scene = Scene.ScenePath;
             FadeControl.singleton.FadeToLoadingScreen();
         }
     }
