@@ -1,0 +1,21 @@
+{
+    "name": "HelloMarioFramework",
+    "rootNamespace": "",
+    "references": [
+        "Cinemachine",
+        "Unity.InputSystem",
+        "UnitySceneReference",
+        "Unity.Postprocessing.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "WindowsStandalone64"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
