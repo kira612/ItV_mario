@@ -8,6 +8,8 @@
     "com.unity.postprocessing": "3.2.2",
     "com.unity.ugui": "1.0.0",
     "com.unity.xr.interaction.toolkit": "2.4.3",
+    "com.unity.xr.management": "4.5.0",
+    "com.unity.xr.openxr": "1.8.2",
     "com.unity.modules.animation": "1.0.0",
     "com.unity.modules.assetbundle": "1.0.0",
     "com.unity.modules.audio": "1.0.0",
@@ -22,6 +24,7 @@
     "com.unity.modules.ui": "1.0.0",
     "com.unity.modules.uielements": "1.0.0",
     "com.unity.modules.umbra": "1.0.0",
+    "com.unity.modules.unityanalytics": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
   }
